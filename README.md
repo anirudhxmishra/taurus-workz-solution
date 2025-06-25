@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+# Taurus Workz – Facilities & Projects
 
-## Project info
+> _“One That Meets Your Need”_  
+A complete facilities, projects, and maintenance solution provider for the corporate and industrial sectors.
 
-**URL**: https://lovable.dev/projects/0c814b2c-105a-42cb-862e-bd68d1319d49
+---
 
-## How can I edit this code?
+## 🔗 Live Site
 
-There are several ways of editing your application.
+Coming soon at [taurusworkz.com](https://taurusworkz.com)  
+(Currently hosted preview: [View Project](https://anirudhxmishra.github.io/taurus-workz-solution))
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0c814b2c-105a-42cb-862e-bd68d1319d49) and start prompting.
+## 🏢 About the Client
 
-Changes made via Lovable will be committed automatically to this repo.
+**Taurus Workz** is a Mumbai-based facilities & project management company offering:
+- ✅ Green Facilities Management
+- ⚙️ Industrial Erection & Commissioning
+- 🛠️ Turnkey Interior Projects & Repairs
 
-**Use your preferred IDE**
+Founded in 2006, they bring over 18 years of industry experience, trusted by BPOs and luxury apartment clients across India.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Tech Stack
 
-Follow these steps:
+- **React** (with Vite)
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **React Router DOM**
+- **Lucide Icons**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Running the Project Locally
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
+Make sure you have **Node.js** and **npm** installed.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Steps
+
+```bash
+# Clone the repo
+git clone https://github.com/anirudhxmishra/taurus-workz-solution.git
+
+# Navigate into the folder
+cd taurus-workz-solution
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+````
+
+Then visit: `http://localhost:5173`
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/        # Reusable UI components (Header, Footer, ServiceCard, etc.)
+├── pages/             # Page components like Home, About, Services
+├── assets/            # Logos, icons, images
+├── styles/            # Tailwind / global styles
+└── main.tsx           # App entry point
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Features
 
-**Use GitHub Codespaces**
+* 🔹 Hero section with strong brand message
+* 🔹 Dynamic service cards (modular & editable)
+* 🔹 About section (Mission, Vision, Motto)
+* 🔹 Stats counter
+* 🔹 CTA & Contact section
+* 🔹 Fully responsive layout
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🌐 Domain & Deployment
 
-This project is built with:
+You can connect a custom domain via GitHub Pages or your preferred platform (e.g., Vercel, Netlify).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To deploy on GitHub Pages:
 
-## How can I deploy this project?
+```bash
+# Install gh-pages if needed
+npm install --save-dev gh-pages
 
-Simply open [Lovable](https://lovable.dev/projects/0c814b2c-105a-42cb-862e-bd68d1319d49) and click on Share -> Publish.
+# Add these scripts to package.json
+# "predeploy": "npm run build",
+# "deploy": "gh-pages -d dist"
 
-## Can I connect a custom domain to my Lovable project?
+# Then run:
+npm run deploy
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👤 Maintained By
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Anirudh Mishra**
+GitHub: [@anirudhxmishra](https://github.com/anirudhxmishra)
+Email: [contact@taurusworkz.com](anirudhmishra112233@gmail.com)
+
+---
+
+## 📜 License
+
+© 2025 Taurus Workz. All rights reserved.
+Content and design owned by Taurus Workz – Facilities & Projects.
+
+```
+
+---
