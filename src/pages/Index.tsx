@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ServiceCard from '../components/ServiceCard';
+import ClientLogo from './ClientLogo';
 
 const Index = () => {
   const services = [
@@ -37,7 +38,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
         <div className="absolute inset-0 bg-black opacity-20"></div>
@@ -50,7 +51,7 @@ const Index = () => {
               Trusted Facilities & Projects Partner Since 2006
             </p>
             <p className="text-lg mb-8 text-blue-200 max-w-2xl">
-              Professional end-to-end facilities and project management services for 
+              Professional end-to-end facilities and project management services for
               corporate and industrial sectors in Mumbai and beyond.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -99,29 +100,29 @@ const Index = () => {
               About Taurus Workz
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Launched in July 2006, Taurus Workz has been Mumbai's trusted partner for 
-              comprehensive facilities and project management. We specialize in environment-friendly 
+              Launched in July 2006, Taurus Workz has been Mumbai's trusted partner for
+              comprehensive facilities and project management. We specialize in environment-friendly
               operations, ensuring customer satisfaction and on-time delivery for every project.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Mission</h3>
                 <p className="text-gray-600">
-                  To provide comprehensive facilities management solutions that allow our 
+                  To provide comprehensive facilities management solutions that allow our
                   clients to focus on their core business operations.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Vision</h3>
                 <p className="text-gray-600">
-                  Taking full responsibility for facility management so clients can 
+                  Taking full responsibility for facility management so clients can
                   concentrate on growing their business without operational concerns.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Motto</h3>
                 <p className="text-gray-600 font-medium text-green-600">
-                  "One That Meets Your Need" - Delivering tailored solutions for 
+                  "One That Meets Your Need" - Delivering tailored solutions for
                   every client requirement.
                 </p>
               </div>
@@ -145,7 +146,7 @@ const Index = () => {
               Our Core Services
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Three pillars of excellence in facilities and project management, 
+              Three pillars of excellence in facilities and project management,
               tailored to meet your specific business needs.
             </p>
           </div>
@@ -181,6 +182,21 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      {/* Clients Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            Our Esteemed Clients
+          </h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+            Trusted by top enterprises across banking, telecom, IT, pharma, and media sectors.
+          </p>
+
+          <ClientLogo />
+        </div>
+      </section>
+
 
       {/* CTA Section */}
       <section className="py-16 bg-blue-900 text-white">
@@ -189,7 +205,7 @@ const Index = () => {
             Ready to Work With Us?
           </h2>
           <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-            Let's discuss how Taurus Workz can meet your facilities and project management needs. 
+            Let's discuss how Taurus Workz can meet your facilities and project management needs.
             Contact us today for a consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

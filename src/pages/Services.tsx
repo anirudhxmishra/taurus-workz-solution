@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Client from './Client';
 
 const Services = () => {
   const services = [
@@ -116,7 +117,7 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-16">
         <div className="container mx-auto px-4">
@@ -137,7 +138,7 @@ const Services = () => {
               Comprehensive Solutions
             </h2>
             <p className="text-lg text-gray-600">
-              From eco-friendly facility management to complex industrial installations, 
+              From eco-friendly facility management to complex industrial installations,
               we provide end-to-end solutions tailored to your specific requirements.
             </p>
           </div>
@@ -146,7 +147,7 @@ const Services = () => {
             {services.map((service, index) => {
               const colors = getColorClasses(service.color);
               const isEven = index % 2 === 0;
-              
+
               return (
                 <div key={index} className={`${colors.bg} ${colors.border} border rounded-lg overflow-hidden`}>
                   <div className={`grid grid-cols-1 lg:grid-cols-2 gap-0 ${!isEven ? 'lg:grid-flow-col-dense' : ''}`}>
@@ -157,7 +158,7 @@ const Services = () => {
                         <h3 className="text-3xl font-bold text-gray-900">{service.title}</h3>
                       </div>
                       <p className="text-lg text-gray-700 mb-6">{service.description}</p>
-                      
+
                       <div className="mb-6">
                         <h4 className="text-lg font-semibold text-gray-900 mb-3">Key Benefits:</h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -231,7 +232,7 @@ const Services = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your facilities and project management needs. 
+            Contact us today to discuss your facilities and project management needs.
             Let's find the perfect solution for your requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
